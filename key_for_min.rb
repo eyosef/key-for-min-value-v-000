@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   lowest_key = ""
-  lowest_key = Float::INFINITY
+  lowest_value = Float::INFINITY
   name_hash.each do |key, value|
-    if value is the smallest
+    if
       return key
 end
